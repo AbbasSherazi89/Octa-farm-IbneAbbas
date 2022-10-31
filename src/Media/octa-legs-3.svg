@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="224" viewBox="0 0 85 224" fill="none"><style xmlns="http://www.w3.org/2000/svg">
+	.flow-chart-dotted-line {
+		stroke-dasharray: 1 10;
+		stroke-dashoffset: 8;
+		animation: u .5s linear infinite
+	}
+
+	.flow-chart-dotted-line.-is-reverse {
+		animation: u .5s linear reverse infinite
+	}
+
+	@keyframes u {
+		to {
+			stroke-dashoffset: 30
+		}
+	}
+</style><path class="flow-chart-dotted-line" d="M83 207C56.6429 207 56.7645 207.334 56.7645 165.834C56.7797 121.018 56.6581 120.064 33.5539 120.064C11.9696 120.064 12 120.064 12 120.064" stroke="url(#paint0_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path><path class="flow-chart-dotted-line" d="M82 112C59.4418 112 2 112 2 112" stroke="url(#paint1_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path><path class="flow-chart-dotted-line" d="M83 17.0001C56.6429 17.0001 56.7645 16.6662 56.7645 58.1663C56.7797 102.982 56.6581 103.936 33.5538 103.936C11.9696 103.936 12 103.936 12 103.936" stroke="url(#paint2_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path><defs><linearGradient id="paint0_linear" x1="97.2335" y1="163.532" x2="11.6926" y2="163.532" gradientUnits="userSpaceOnUse"><stop stop-color="#5BC0BE"></stop><stop offset="1" stop-color="#5BC0BE" stop-opacity="0"></stop></linearGradient><linearGradient id="paint1_linear" x1="110.942" y1="2.27215e+08" x2="21.5414" y2="2.27215e+08" gradientUnits="userSpaceOnUse"><stop stop-color="#5BC0BE"></stop><stop offset="1" stop-color="#5BC0BE" stop-opacity="0"></stop></linearGradient><linearGradient id="paint2_linear" x1="97.2335" y1="60.4679" x2="11.6925" y2="60.4679" gradientUnits="userSpaceOnUse"><stop stop-color="#5BC0BE"></stop><stop offset="1" stop-color="#5BC0BE" stop-opacity="0"></stop></linearGradient></defs></svg>

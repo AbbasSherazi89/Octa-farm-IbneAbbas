@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="900" viewBox="0 0 910 900" fill="none">
+    <g opacity="0.6" filter="url(#filter0_f)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M466.757 260.041C555.206 261.832 614.99 334.155 640.361 411.648C663.671 482.847 645.156 561.293 579.887 605.59C512.597 651.257 420.954 651.204 352.496 607.013C280.98 560.848 242.518 480.748 267.757 404.104C294.726 322.21 373.239 258.147 466.757 260.041Z" fill="url(#paint0_radial)" fill-opacity="0.5"></path>
+    </g>
+    <defs>
+        <filter id="filter0_f" x="0" y="0" width="910" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="130"></feGaussianBlur>
+        </filter>
+        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(455 450) scale(195 190)">
+            <stop offset="0.171875" stop-color="#56FFE1"></stop>
+            <stop offset="1" stop-color="#10D4FF"></stop>
+        </radialGradient>
+    </defs>
+</svg>

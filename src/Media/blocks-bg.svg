@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" opacity="0.4" width="1440" height="587" viewBox="0 0 1440 587" fill="none">
+    <path d="M202 398L73 444L41 337L-38 378L202 398ZM202 398L350 373L319 530M202 398L319 530M319 530L510 512M319 530L603 369M510 512L603 369M510 512L690 432M510 512L890 582M603 369L690 432M690 432L711 246M690 432L898 428M711 246L979 308L898 428M711 246L898 428M898 428L890 582M890 582L1091 546L1159 406M890 582L1159 406M1159 406L1250 499L1274 324L1087 202M1159 406L1087 202M1087 202L1222 129M1087 202L1366 210M1222 129L1366 210M1222 129L1282 5M1366 210L1282 5M1366 210L1462 62L1282 5" stroke="#1D252F"></path>
+    <circle cx="350" cy="373" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="711" cy="246" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="898" cy="428" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1087" cy="202" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="603" cy="369" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="890" cy="582" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <g filter="url(#the_filter)">
+        <circle cx="1159" cy="406" r="4" fill="#10151B"></circle>
+        <circle cx="1159" cy="406" r="4" stroke="#99FFF0" stroke-width="1.5"></circle>
+    </g>
+    <circle cx="1274" cy="324" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1366" cy="210" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="319" cy="530" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="202" cy="398" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="73" cy="444" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="41" cy="337" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="510" cy="512" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="690" cy="432" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1091" cy="546" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1250" cy="499" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="979" cy="308" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1222" cy="129" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <circle cx="1282" cy="5" r="4" fill="#10151B" stroke="#38404A"></circle>
+    <path d="M1151 384L1133 333L1115 282" stroke="url(#gbgf_the_gradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <defs>
+        <filter id="the_filter" x="1147.25" y="394.25" width="23.5" height="23.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+            <feOffset></feOffset>
+            <feGaussianBlur stdDeviation="3.5"></feGaussianBlur>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.380392 0 0 0 0 0.803922 0 0 0 0 0.937255 0 0 0 0.25 0"></feColorMatrix>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+        </filter>
+        <linearGradient id="gbgf_the_gradient" x1="1133" y1="293" x2="1133" y2="384" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#99FFF0" stop-opacity="0"></stop>
+            <stop offset="0.862745" stop-color="#99FFF0"></stop>
+        </linearGradient>
+    </defs>
+</svg>

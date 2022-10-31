@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <>
     {/* <div className={navbar ? 'nav-color' : 'nav-trans'}> */}
-      <nav className='navbar navbar-expand-lg bg-dark  py-4'>
+      <nav className='navbar navbar-expand-lg  py-4'>
         <div className="container">
           <Link to="/">
             <div>

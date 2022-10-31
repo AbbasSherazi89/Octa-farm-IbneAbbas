@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="346" viewBox="0 0 178 346" fill="none">
+	<style>
+		.flow-chart-dotted-line {
+			stroke-dasharray: 1 10;
+			stroke-dashoffset: 8;
+			animation: u .6s linear infinite
+		}
+		.flow-chart-dotted-line.-is-reverse {
+			animation: u .5s linear reverse infinite
+		}
+		@keyframes u {
+			to {
+				stroke-dashoffset: 30
+			}
+		}
+	</style>
+	<g opacity="0.2">
+		<path opacity="0.2" d="M5.31445 5.92398C5.31445 5.92398 18.2628 5.92398 33.6215 5.92398C87.2072 5.92398 86.96 5.30873 86.96 81.7764C86.9291 164.353 87.1763 166.111 134.149 166.111C178.031 166.111 177.969 166.111 177.969 166.111" stroke="#5BC0BE" stroke-width="3" stroke-dasharray="0 9"></path>
+		<path opacity="0.2" d="M5.31445 111.396C5.31445 111.396 18.2628 111.396 33.6215 111.396C70.8287 111.396 77.6891 112.056 77.6891 143.302C77.6582 170.066 87.1763 170.505 134.149 170.505C178.031 170.505 177.969 170.505 177.969 170.505" stroke="#5BC0BE" stroke-width="3" stroke-dasharray="0 9"></path>
+		<path opacity="0.2" d="M5.31445 234.229C5.31445 234.229 18.2628 234.229 33.6215 234.229C70.8287 234.229 77.6891 233.569 77.6891 202.323C77.6891 175.56 87.2072 175.12 134.18 175.12C178.062 175.12 178 175.12 178 175.12" stroke="#5BC0BE" stroke-width="3" stroke-dasharray="0 9"></path>
+		<path opacity="0.2" d="M5.31445 340.141C5.31445 340.141 18.2628 340.141 33.6215 340.141C87.2072 340.141 86.96 340.756 86.96 264.288C86.96 181.712 87.2072 179.954 134.18 179.954C178.062 179.954 178 179.954 178 179.954" stroke="#5BC0BE" stroke-width="3" stroke-dasharray="0 9"></path>
+	</g>
+	<path class="flow-chart-dotted-line -is-reverse" d="M5.31445 5.92398C5.31445 5.92398 18.2628 5.92398 33.6215 5.92398C87.2072 5.92398 86.96 5.30873 86.96 81.7764C86.9291 164.353 87.1763 166.111 134.149 166.111C178.031 166.111 177.969 166.111 177.969 166.111" stroke="url(#paint0_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line -is-reverse" d="M5.31445 111.396C5.31445 111.396 18.2628 111.396 33.6215 111.396C70.8287 111.396 77.6891 112.056 77.6891 143.302C77.6582 170.066 87.1763 170.505 134.149 170.505C178.031 170.505 177.969 170.505 177.969 170.505" stroke="url(#paint1_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line -is-reverse" d="M5.31445 234.229C5.31445 234.229 18.2628 234.229 33.6215 234.229C70.8287 234.229 77.6891 233.569 77.6891 202.323C77.6891 175.56 87.2072 175.12 134.18 175.12C178.062 175.12 178 175.12 178 175.12" stroke="url(#paint2_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line -is-reverse" d="M5.31445 340.141C5.31445 340.141 18.2628 340.141 33.6215 340.141C87.2072 340.141 86.96 340.756 86.96 264.288C86.96 181.712 87.2072 179.954 134.18 179.954C178.062 179.954 178 179.954 178 179.954" stroke="url(#paint3_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<g opacity="0.2">
+		<path d="M5.31445 5.92398C5.31445 5.92398 18.2628 5.92398 33.6215 5.92398C87.2072 5.92398 86.96 5.30872 86.96 81.7764C86.9291 164.353 87.1763 166.111 134.149 166.111C178.031 166.111 177.969 166.111 177.969 166.111" stroke="url(#paint4_linear)" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+		<path d="M5.31445 111.396C5.31445 111.396 18.2628 111.396 33.6215 111.396C70.8287 111.396 77.6891 112.056 77.6891 143.302C77.6582 170.066 87.1763 170.505 134.149 170.505C178.031 170.505 177.969 170.505 177.969 170.505" stroke="url(#paint5_linear)" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+		<path d="M5.31445 234.229C5.31445 234.229 18.2628 234.229 33.6215 234.229C70.8287 234.229 77.6891 233.569 77.6891 202.323C77.6891 175.56 87.2072 175.12 134.18 175.12C178.062 175.12 178 175.12 178 175.12" stroke="url(#paint6_linear)" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+		<path d="M5.31445 340.141C5.31445 340.141 18.2628 340.141 33.6215 340.141C87.2072 340.141 86.96 340.756 86.96 264.288C86.96 181.712 87.2072 179.954 134.18 179.954C178.062 179.954 178 179.954 178 179.954" stroke="url(#paint7_linear)" stroke-width="10" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+	</g>
+	<defs>
+		<linearGradient id="paint0_linear" x1="4.68416" y1="86.0172" x2="178.594" y2="86.0172" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint1_linear" x1="4.68416" y1="140.951" x2="178.594" y2="140.951" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint2_linear" x1="4.68416" y1="204.674" x2="178.594" y2="204.674" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint3_linear" x1="4.68416" y1="260.047" x2="178.594" y2="260.047" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint4_linear" x1="4.68416" y1="86.0172" x2="178.594" y2="86.0172" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint5_linear" x1="4.68416" y1="140.951" x2="178.594" y2="140.951" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint6_linear" x1="4.68416" y1="204.674" x2="178.594" y2="204.674" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint7_linear" x1="4.68416" y1="260.047" x2="178.594" y2="260.047" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+	</defs>
+</svg>

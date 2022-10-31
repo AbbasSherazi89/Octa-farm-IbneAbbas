@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="228" viewBox="0 0 124 228" fill="none">
+	<style>
+		.flow-chart-dotted-line {
+			stroke-dasharray: 1 10;
+			stroke-dashoffset: 8;
+			animation: u .5s linear infinite
+		}
+
+		.flow-chart-dotted-line.-is-reverse {
+			animation: u .5s linear reverse infinite
+		}
+
+		@keyframes u {
+			to {
+				stroke-dashoffset: 30
+			}
+		}
+	</style>
+	<path class="flow-chart-dotted-line" d="M122 2.0001C76.7103 2.0001 76.9193 1.60449 76.9193 50.7732C76.9454 103.87 76.7365 105 37.0362 105C-0.0522572 105 -2.86102e-06 105 -2.86102e-06 105" stroke="url(#paint0_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line" d="M122 77C90.3535 77 90.3535 76.8694 90.3535 93.0999C90.377 110.627 90.1886 111 54.3933 111C20.9529 111 12 111 12 111" stroke="url(#paint1_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line" d="M122 226C76.7103 226 76.9193 226.396 76.9193 177.227C76.9454 124.13 76.7365 123 37.0362 123C-0.0522572 123 -2.86102e-06 123 -2.86102e-06 123" stroke="url(#paint2_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<path class="flow-chart-dotted-line" d="M122 151C90.3535 151 90.3535 151.131 90.3535 134.9C90.377 117.373 90.1886 117 54.3933 117C20.9529 117 12 117 12 117" stroke="url(#paint3_linear)" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 10"></path>
+	<defs>
+		<linearGradient id="paint0_linear" x1="146.458" y1="53.5" x2="-0.528326" y2="53.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint1_linear" x1="144.052" y1="94" x2="11.5236" y2="94" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint2_linear" x1="146.458" y1="174.5" x2="-0.528326" y2="174.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+		<linearGradient id="paint3_linear" x1="144.052" y1="134" x2="11.5236" y2="134" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#5BC0BE" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#5BC0BE"></stop>
+		</linearGradient>
+	</defs>
+</svg>

@@ -3,8 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="container-fluid hero-fluid py-4">
-        <div id="octopus-rotate" className="bg_img bg_img_index">
+      <div className="container-fluid hero-fluid position-relative py-4" style={{overflow: 'hidden'}}>
+      
+        <div className="bg_img">
           <img
             className="img-fluid bg_img_front"
             src="assets/front-bg.png"
@@ -24,9 +25,9 @@ const Hero = () => {
 
         <div className="container">
           <div className="row  d-flex align-items-center">
-            <div className="col-lg-6 mt-0 pt-0">
+            <div className="col-lg-6 hero-col1 mt-0 pt-0 mb-3">
               <h1>
-                Maximize Staking Returns <br />
+                Maximize Staking Returns <br/>
                 with Auto-Compounding
               </h1>
               <h3>
@@ -68,24 +69,23 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 hero-col2">
               <iframe
-                className="ifram"
+                className="video-frame"
                 width="100%"
                 height="358px"
                 src="https://www.youtube-nocookie.com/embed/2MBH3qpOgPI?controls=0&rel=0"
                 title="YouTube video player"
-                frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                // frameBorder={0}
+                // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               />
             </div>
           </div>
 
-          <div className="row d-flex justify-content-around align-items-center pt-5 pb-1">
+          <div className="row media d-flex justify-content-around align-items-center pt-5 pb-1">
             <div className="col-md-4">
               <a href="https://www.digitaljournal.com/pr/octafarm-fi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol">
                 <img
-                  className="img-row1"
                   src="assets/dj.png"
                   alt=""
                   width={200}
@@ -95,7 +95,6 @@ const Hero = () => {
             <div className="col-md-4">
               <a href="https://finance.yahoo.com/news/octafarm-fi-launches-binance-chain-124200010.html">
                 <img
-                  className="img-row1"
                   src="assets/yf.png"
                   alt=""
                   width={200}
@@ -105,7 +104,6 @@ const Hero = () => {
             <div className="col-md-4">
               <a href="https://www.marketwatch.com/press-release/octafarmfi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol-2021-12-23">
                 <img
-                  className="img-row1"
                   src="assets/mw.svg"
                   alt=""
                   width={200}
@@ -151,7 +149,7 @@ const Hero = () => {
             </defs>
           </svg>
 
-          <div className="row d-flex justify-content-around align-items-center pt-1">
+          <div className="row media d-flex justify-content-around align-items-center pt-1">
             <div className="col-md-4">
               <a href="https://www.digitaljournal.com/pr/octafarm-fi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol">
                 <img

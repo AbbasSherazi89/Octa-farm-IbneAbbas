@@ -1,59 +1,135 @@
 ////////////////////////////////////////////////////////////////Header///////////////////////////////////////////////
 
 .navbar {
+  z-index: -1 !important;
+  background-color: #0b132b;
   .nav-link {
     color: white;
   }
+ 
 }
 
 ////////////////////////////////////////////////////////////////Home///////////////////////////////////////////////
 
 .hero-fluid {
   padding-top: 100px;
-  background-color: #080e21;
+  background-color: #0b132b;
   color: white;
+
   .bg_img {
     position: absolute;
-    top: -14em;
-    right: -18em;
-    z-index: 2;
+    top: -18em;
+    right: -14em;
     overflow: hidden !important;
-    width: 70em;
+    width: 69rem !important;
     opacity: 0.8;
+    animation: oct-back 8s cubic-bezier(0.66, 0, 0, 1) 0s infinite alternate;
   }
-  .bg_img img {
-    width: 100%;
+  @keyframes oct-back {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(5deg);
+    }
   }
+  .hero-col1{
+    z-index: 1;
+  }
+  .hero-col2{
+    z-index: 1;
+  }
+
   .bg_img_front {
-    // -webkit-animation: oct-back 8s cubic-bezier(.66,0,0,1) 0s infinite alternate;
-    // animation: oct-back 8s cubic-bezier(.66,0,0,1) 0s infinite alternate;
+    position: absolute;
+    top: -0.5em;
+    right: 0;
   }
   .bg_img_middle {
     position: absolute;
     top: -0.5em;
-    left: 0;
+    right: 0;
   }
-  .bg_img_back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    // -webkit-animation: oct-back 4s cubic-bezier(.66,0,0,1) 0s infinite alternate;
-    // animation: oct-back 4s cubic-bezier(.66,0,0,1) 0s infinite alternate;
-  }
-
+  // .bg_img_back {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  // }
   a {
     color: inherit;
     text-decoration: none;
   }
+  h1 {
+    font-weight: 700;
+  }
+  h3 {
+    color: #5bc0be;
+  }
+  .btn-primary {
+    background-color: #5bc0be;
+    border: 0;
+    color: #080e21;
+    font-weight: 600;
+    padding: 10px 0px;
+  }
+  .btn-outline-primary {
+    border: 2px solid #5bc0be;
+    padding: 10px 40px;
+  }
+  .btn-primary:hover {
+    background-color: #84f0ee;
+    color: #080e21;
+  }
+  .btn-outline-primary:hover {
+    background-color: rgb(52, 52, 52);
+  }
+  .media img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    width: 200px;
+  }
 }
 
-////////////////////////////////////////////////////////////////Cards///////////////////////////////////////////////
+////////////////////////////////////////////////////////////////AfterHero///////////////////////////////////////////////
 
 .afterhero-fluid {
   color: white;
+  background: radial-gradient(
+    17.4% 50% at 41.26% 50%,
+    #0d3f59 0,
+    rgba(4, 24, 54, 0) 100%
+  );
   background-color: #0b132b;
+  overflow-x: hidden;
   padding-top: 100px;
 
+  .first-col {
+    .overview-h3 {
+      color: #6fffe9;
+      font-family: Montserrat, Sans-serif;
+      font-size: 21px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 26px;
+      letter-spacing: 0.65px;
+      margin: 0;
+    }
+    .subs {
+      color: #fff;
+      font-size: 2.6em;
+      font-weight: 600;
+      margin-bottom: 14px;
+      display: block;
+      line-height: 1;
+      letter-spacing: 1px;
+    }
+    h2 {
+      color: #fff;
+      font-weight: 400;
+      font-size: 2em;
+      margin: 0;
+    }
+  }
   .box {
     margin-left: 80px;
     display: flex;
@@ -61,7 +137,9 @@
     align-items: center;
     justify-content: center;
     background-color: #133b59;
-    // border: 0px solid cyan;
+    border-left: 2px solid cyan;
+    border-right: 2px solid cyan;
+    border-top: 2px solid cyan;
     border-radius: 8px;
 
     span.one {
@@ -69,7 +147,6 @@
       font-weight: 700;
       text-align: center;
     }
-
     .text-cyan {
       top: 16px;
       font-size: 14px !important;
@@ -81,14 +158,192 @@
 ////////////////////////////////////////////////////////////////CrossChain///////////////////////////////////////////////
 
 .cross-fluid {
-  background-color: #080e21;
+  background-color: #0b132b;
   color: white;
+
+  h1 {
+    font-size: 54px;
+    font-weight: 700;
+    font-family: Montserrat, Sans-serif;
+    line-height: 66px;
+  }
+  .title {
+    color: #6fffe9;
+    font-family: Montserrat, Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.65px;
+    margin: 0;
+  }
+  .paragraph-chain {
+    font-family: Open Sans, Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  .networks {
+    margin-top: -30px;
+    margin-right: 30px;
+    font-weight: 700;
+    font-family: NeueHaasDisplayMedium;
+
+    .bd-highlight-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .bd-highlight:first-child {
+      margin-bottom: 55px;
+      margin-top: 4px;
+    }
+    .bd-highlight {
+      margin-bottom: 55px;
+      // margin-top: 4px;
+    }
+    img,
+    svg {
+      vertical-align: middle;
+    }
+    .bd-highlight span {
+      padding-right: 20px;
+    }
+  }
+  .octa-process {
+    position: relative;
+  }
+  .step3,
+  .step4 {
+    position: relative;
+  }
+  // .list-group {
+  //   display: -webkit-flex;
+  //   display: flex;
+  //   -webkit-flex-direction: column;
+  //   flex-direction: column;
+
+  //   padding-left: 0;
+  //   margin-bottom: 0;
+  //   border-radius: 0.25rem;
+  // }
+  // .list-group-item:first-child {
+  //   border-top-left-radius: inherit;
+  //   border-top-right-radius: inherit;
+  // }
+  // ul {
+  //   margin-top: 0;
+  //   margin-bottom: 1rem;
+  // }
+
+  .step3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .step4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 100px;
+  }
+
+  .list-group-item {
+    margin-bottom: 30px;
+    background: #1c2541;
+    color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-left: 2px solid #6fffe9;
+  }
+
+  .octa-body {
+    z-index: 2;
+  }
+  .octa-process:before {
+    background-image: url("./Media/octapus-process-bg.svg");
+    content: "";
+    width: 300px;
+    display: block;
+    height: 300px;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    top: -80px;
+    left: -30px;
+  }
+  .octa-legs:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .octa-legs:before {
+    background-image: url("./Media/octa-legs-before.svg");
+    width: 178px;
+    height: 350px;
+    top: -webkit-calc(60% - 173px);
+    top: calc(60% - 173px);
+    left: -140px;
+  }
+  .octa-legs:after {
+    background-image: url("./Media/octa-legs-after.svg");
+    width: 124px;
+    height: 228px;
+    top: -webkit-calc(62% - 114px);
+    top: calc(62% - 114px);
+    left: 200px;
+  }
+  .octa-legs:after,
+  .octa-legs:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .step3:after {
+    background-image: url("./Media/octa-legs-3.svg");
+    content: "";
+    width: 85px;
+    display: block;
+    height: 240px;
+    position: absolute;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    // top: -webkit-calc(50% - 112px);
+    top: calc(30% - 50px);
+    right: -30px;
+  }
 }
 
 ////////////////////////////////////////////////////////////////ThreeCards///////////////////////////////////////////////
 
 .three-fluid {
-  background-color: #080e21;
+  background-color: #0b132b;
   color: white;
 
   .box-mid {
@@ -101,9 +356,59 @@
     align-items: center;
     justify-content: center;
     background-color: #133b59;
-    // border: 0px solid cyan;
     border-radius: 8px;
+    position: relative;
 
+    .box span:first-child {
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 11px;
+      letter-spacing: 2px;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .coming {
+      line-height: 11px;
+      letter-spacing: 2px;
+      position: absolute;
+      display: block;
+      font-size: 10px !important;
+      padding: 3px 14px;
+      background-color: #5bc0be;
+      color: #0b132b;
+      font-weight: 700;
+      transform: rotate(-40deg);
+      top: 23px;
+      left: -8px;
+    }
+    .coming2 {
+      line-height: 11px;
+      letter-spacing: 2px;
+      position: absolute;
+      display: block;
+      font-size: 10px !important;
+      padding: 3px 14px;
+      background-color: #5bc0be;
+      color: #0b132b;
+      font-weight: 700;
+      transform: rotate(-40deg);
+      top: 23px;
+      left: -12px;
+    }
+    .coming3 {
+      line-height: 11px;
+      letter-spacing: 2px;
+      position: absolute;
+      display: block;
+      font-size: 10px !important;
+      padding: 3px 14px;
+      background-color: red;
+      color: white;
+      font-weight: 700;
+      transform: rotate(-40deg);
+      top: 23px;
+      left: -8px;
+    }
     .text-cyan {
       top: 16px;
       color: #5bc0be;
@@ -115,17 +420,246 @@
     }
     .btn-primary {
       font-weight: 700;
+      border: 0;
       color: #080e21;
       background-color: #5bd0c5 !important;
     }
+    .btn-primary:hover {
+      background-color: grey;
+    }
   }
+}
+
+////////////////////////////////////////////////////////////////Token///////////////////////////////////////////////
+
+.token-fluid {
+  background-image: url("./Media/donut.bg.svg");
+  background-color: #0b132b;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
   .token-details span {
     margin-top: -6px;
     display: block;
     color: #5bc0be;
     font-family: NeueHaasDisplayMedium;
     font-size: 2.6em;
+  }
 }
+.Chart {
+  color: white !important;
+  
+  path {
+    fill: #5bc0be !important;
+  }
+}
+text {
+  fill: white !important;
+}
+
+////////////////////////////////////////////////////////////////Utilities///////////////////////////////////////////////
+
+.utility-fluid {
+  background-color: #0b132b;
+  color: white;
+
+  .headings h1 {
+    font-family: NeueHaasDisplayMedium;
+  }
+
+  .headings h5 {
+    color: #d6fff9;
+    font-size: 1.25rem;
+    font-family: NeueHaasDisplayMedium;
+  }
+  .utility {
+    background-color: #122c49;
+    display: flex;
+    border-radius: 6px;
+    flex-direction: column;
+    // overflow: hidden;
+    padding: 40px;
+    h2 {
+      font-family: NeueHaasDisplayMedium;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 1.5em;
+    }
+    h4 {
+      font-family: Montserrat, Sans-serif;
+      color: #d6fff9;
+      font-size: 18px;
+    }
+  }
+  .utility:hover {
+    cursor: pointer;
+    background: linear-gradient(130.03deg, #1f2947 27.17%, #00304b 85.87%);
+  }
+}
+
+////////////////////////////////////////////////////////////////RoadMap///////////////////////////////////////////////
+
+.raodmap {
+  padding: 60px 0px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  background: url("./Media/blocks-bg.svg") no-repeat;
+  background-color: #0b132b;
+  background-size: contain;
+  background-position: 50%;
+}
+.raodmap:before {
+  background-image: url("./Media/hero1-bg.svg");
+  content: "";
+  width: 1450px;
+  display: block;
+  height: 850px;
+  position: absolute;
+  z-index: 1;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+  top: -180px;
+  left: -900px;
+}
+
+.dot-grid-graphic {
+  position: absolute;
+  top: 0;
+  left: -webkit-calc(50% - 75rem);
+  left: calc(50% - 75rem);
+  z-index: 1;
+  opacity: 0.2;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.raodmap-container {
+  padding: 250px 0;
+  text-align: center;
+  white-space: nowrap;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto;
+}
+.raodmap-section:first-child {
+  border: 1px solid #99fff0;
+}
+.raodmap-section {
+  width: 150px;
+  min-width: 150px;
+  height: 1px;
+  border: 1px solid #3a506b;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.raodmap-section.active .raodmap-section-node {
+  background-color: #99fff0;
+}
+.raodmap-section-node {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #3a506b;
+  border: 4px solid #0b132b;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  z-index: 2;
+}
+.raodmap-section.active .raodmap-section-branch {
+  background-image: url("./Media/box.svg");
+}
+.raodmap-section-branch {
+  height: 140px;
+  width: 1px;
+  background-image: url("./Media/box-inner.svg");
+  position: absolute;
+  bottom: 11px;
+  left: 5px;
+}
+
+.raodmap-section.active .raodmap-section-node:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -10px;
+  top: -10px;
+}
+.raodmap-section.long {
+  width: 280px;
+  min-width: 250px;
+}
+.raodmap-section {
+  width: 150px;
+  min-width: 150px;
+  height: 1px;
+  border: 1px solid #3a506b;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.raodmap-section-year {
+  position: absolute;
+  bottom: 15px;
+  right: 10%;
+  font-size: 20px;
+}
+
+.raodmap-section-node {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #3a506b;
+  border: 4px solid #0b132b;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  z-index: 2;
+}
+.raodmap-section:nth-child(2n) .raodmap-section-branch {
+  top: 11px;
+}
+
+.raodmap-section-branch {
+  height: 140px;
+  width: 1px;
+  background-image: url("./Media/box-inner.svg");
+  position: absolute;
+  bottom: 11px;
+  left: 5px;
+}
+.raodmap-section:nth-child(2n) .raodmap-section-branch .raodmap-text {
+  top: 78px;
+}
+.raodmap-section .raodmap-text {
+  width: 250px;
+  white-space: normal;
+  text-align: left;
+  position: absolute;
+  top: -40px;
+  left: -5px;
+}
+.raodmap-section .raodmap-text-content {
+  max-height: 120px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  color: #d6fff9;
+  position: relative;
+  word-wrap: break-word;
 }
 ////////////////////////////////////////////////////////////////FAQs///////////////////////////////////////////////
 

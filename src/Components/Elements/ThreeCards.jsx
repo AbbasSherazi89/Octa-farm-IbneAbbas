@@ -7,6 +7,7 @@ const ThreeCards = () => {
         <div className="container">
           <div className="row align-item-center justify-content-center">
             <div className="col-md-3 box p-2">
+            <span className="coming">completed</span>
               <h3 className="text-cyan">Private Sale</h3>
               <p>13th Jan, 2022</p>
               <p className="text-cyan fw-bold">Bonus</p>
@@ -19,6 +20,7 @@ const ThreeCards = () => {
             </div>
 
             <div className="col-md-2 box box-mid p-2">
+            <span className="coming2">completed</span>
               <h3 className="text-cyan">Pre Sale</h3>
               <p>15th Jan, 2022 @ PinkSale</p>
               <p className="text-cyan fw-bold">Bonus</p>
@@ -31,6 +33,7 @@ const ThreeCards = () => {
             </div>
 
             <div className="col-md-3 box p-2">
+            <span className="coming3">Live Now</span>
               <h3 className="text-cyan mb-2">Listing</h3>
               <p className=" mb-3">PancakeSwap</p>
               <p className="text-cyan fw-bold">Listing Price</p>
@@ -46,22 +49,6 @@ const ThreeCards = () => {
               >
                 Buy OCTF
               </a>
-            </div>
-          </div>
-
-          <div className="row token-details py-5 ">
-            <h1 className="fw-bold">Token Allocation</h1>
-            <div class="col">
-              Ticker<span>OCTF</span>
-            </div>
-            <div class="col">
-              Network<span>BSC</span>
-            </div>
-            <div class="col">
-              Total Fixed Supply<span>10 Million</span>
-            </div>
-            <div class="col">
-              Emission<span>2 Years</span>
             </div>
           </div>
         </div>

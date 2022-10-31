@@ -6,7 +6,7 @@ const AfterHero = () => {
       <div className="container-fluid afterhero-fluid py-5">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-lg-5 ">
+            <div className="col-lg-5 first-col ">
               <h3 className="overview-h3">
                Invest The Right Way
               </h3>
@@ -15,7 +15,7 @@ const AfterHero = () => {
             </div>
             <div className="col-lg-7">
               <div className="row align-item-center justify-content-center">
-                <div className="col-md-5 box p-3">
+                <div className="col-md-5 box p-3 mt-3">
                   <p className="mb-0 pb-0">
                     <span>Highest Auto</span>
                   </p>
@@ -27,7 +27,7 @@ const AfterHero = () => {
                   <p className="text-cyan">Annual Percentage Yield</p>
                   <p />
                 </div>
-                <div className="col-md-4 box p-3">
+                <div className="col-md-4 box p-3 mt-3">
                   <p className="mb-0 pb-0">
                     <span>Projected </span>
                   </p>
