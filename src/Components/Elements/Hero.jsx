@@ -82,8 +82,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="row media d-flex justify-content-around align-items-center pt-5 pb-1">
-            <div className="col-md-4">
+          <div className="row media d-flex justify-content-center align-items-center pt-5 pb-1">
+            <div className="col-md-4 media-col">
               <a href="https://www.digitaljournal.com/pr/octafarm-fi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol">
                 <img
                   src="assets/dj.png"
@@ -92,7 +92,7 @@ const Hero = () => {
                 />
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 media-col">
               <a href="https://finance.yahoo.com/news/octafarm-fi-launches-binance-chain-124200010.html">
                 <img
                   src="assets/yf.png"
@@ -101,7 +101,7 @@ const Hero = () => {
                 />
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 media-col">
               <a href="https://www.marketwatch.com/press-release/octafarmfi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol-2021-12-23">
                 <img
                   src="assets/mw.svg"
@@ -113,6 +113,7 @@ const Hero = () => {
           </div>
          
           <svg
+          className="media-svg-line"
             xmlns="http://www.w3.org/2000/svg"
             width="2840"
             height="2"
@@ -150,7 +151,7 @@ const Hero = () => {
           </svg>
 
           <div className="row media d-flex justify-content-around align-items-center pt-1">
-            <div className="col-md-4">
+            <div className="col-md-4 media-col">
               <a href="https://www.digitaljournal.com/pr/octafarm-fi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol">
                 <img
                   className="img-row1"
@@ -160,7 +161,7 @@ const Hero = () => {
                 />
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 media-col">
               <a href="https://finance.yahoo.com/news/octafarm-fi-launches-binance-chain-124200010.html">
                 <img
                   className="img-row1"
@@ -170,7 +171,7 @@ const Hero = () => {
                 />
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 media-col">
               <a href="https://www.marketwatch.com/press-release/octafarmfi-launches-on-binance-chain-as-the-first-fully-integrated-yield-maximizing-protocol-2021-12-23">
                 <img
                   className="img-row1"

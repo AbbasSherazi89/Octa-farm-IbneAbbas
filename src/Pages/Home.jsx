@@ -3,6 +3,7 @@ import AfterHero from '../Components/Elements/AfterHero'
 import CrossChain from '../Components/Elements/CrossChain'
 import Hero from '../Components/Elements/Hero'
 import Roadmap from '../Components/Elements/Roadmap'
+// import RoadmapCustom from '../Components/Elements/RoadmapCustom'
 import ThreeCards from '../Components/Elements/ThreeCards'
 import Token from '../Components/Elements/Token'
 import Utilities from '../Components/Elements/Utilities'
@@ -18,6 +19,7 @@ const Home = () => {
     <Token/>
     <Utilities/>
     <Roadmap/>
+    {/* <RoadmapCustom/> */}
      <FAQs/> 
     </>
   )

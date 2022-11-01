@@ -47,17 +47,17 @@ const Header = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold ">
               <li className="nav-item position-relative">
                 <Link className="nav-link" aria-current="page" to="/">
-                  Features
+                  Overview
                 </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#litepaper">
-                  Litepaper
+                  Traction
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#platform">
-                  Platform
+                  Tokenomics
                 </a>
               </li>
               <li className="nav-item">
@@ -68,11 +68,6 @@ const Header = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#faq">
                   FAQs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="https://porkswap.finance/reports/audit-by-solid-group.pdf">
-                  Audit Report
                 </a>
               </li>
             </ul>

@@ -15,7 +15,7 @@ const CrossChain = () => {
             </p>
           </div>
         </div>
-        <div className="row align-item-center justify-content-center py-5">
+        <div className="row network-row align-item-center justify-content-center py-5">
           <div className="col-lg-4 networks">
             <div className="bd-highlight-main">
               <div className="bd-highlight">

@@ -1,5 +1,4 @@
 import React from "react";
-import Linechart from "./Linechart";
 
 const Roadmap = () => {
   return (

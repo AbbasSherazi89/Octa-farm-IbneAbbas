@@ -10,11 +10,11 @@ export const data = [
   ["Team & Advisors", 7], 
   ["Airdrop", 7], 
   ["Marketing", 7], 
-  ["CEX & DEX Listing", 7], // CSS-style declaration
+  ["CEX & DEX Listing", 8], // CSS-style declaration
 ];
 
 export const options = {
-  pieHole: 0.6,
+  pieHole: 0.2,
   fill:"orange",
   backgroundColor:'transparent',
   is3D: false,

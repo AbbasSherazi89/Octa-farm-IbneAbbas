@@ -1,10 +1,46 @@
+////////////////////////////////////////////////////////////////Media Query///////////////////////////////////////////////
+
+@media screen and (max-width:600px) {
+  .hero-fluid {
+  .bg_img {
+    width: 30rem !important;
+  }
+  .media-col{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .media-svg-line{
+    display: none;
+  }
+}
+.box {
+  margin-left: 0px !important;
+}
+.network-row{
+  display: none !important;
+}
+.raodmap {
+  display: none !important;
+}
+}
+
 ////////////////////////////////////////////////////////////////Header///////////////////////////////////////////////
 
+
+
 .navbar {
-  z-index: -1 !important;
-  background-color: #0b132b;
+  z-index: 1 !important;
+  background-color: #0B132B;
   .nav-link {
     color: white;
+  }
+  .navbar-toggler-icon{
+    background-color: rgb(153, 151, 151);
+    width: 3rem;
+    height: 2.8rem;
+    border: 2px solid grey;
   }
  
 }
@@ -107,7 +143,7 @@
     .overview-h3 {
       color: #6fffe9;
       font-family: Montserrat, Sans-serif;
-      font-size: 21px;
+      font-size: 20px;
       font-weight: 600;
       text-transform: uppercase;
       line-height: 26px;
@@ -117,7 +153,7 @@
     .subs {
       color: #fff;
       font-size: 2.6em;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 14px;
       display: block;
       line-height: 1;
@@ -499,6 +535,35 @@ text {
   }
 }
 
+////////////////////////////////////////////////////////////////Customize Roadmap///////////////////////////////////////////////
+
+// .custom-roadmap-fluid{
+//   background: url("./Media/blocks-bg.svg") no-repeat;
+//   background-color: #0b132b;
+//   background-size: contain;
+//   background-position: 50%;
+//   color: white;
+//   position: relative;
+
+//   .row-padding{
+//     display: flex !important;
+//     flex-direction: row;
+//     padding-left: 5rem;
+
+//     .dot {
+//       position: absolute;
+//       background: lightblue;
+//       border-radius: 50%;
+//       width: 25px;
+//       height: 25px;
+//     }
+//     .line-width{
+//       width: 250px;
+//     }
+//   }
+ 
+
+// }
 ////////////////////////////////////////////////////////////////RoadMap///////////////////////////////////////////////
 
 .raodmap {
@@ -515,6 +580,9 @@ text {
   background-color: #0b132b;
   background-size: contain;
   background-position: 50%;
+}
+.raodmap-text-title{
+  color: white;
 }
 .raodmap:before {
   background-image: url("./Media/hero1-bg.svg");

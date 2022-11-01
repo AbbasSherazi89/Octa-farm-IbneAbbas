@@ -8,19 +8,20 @@ const Utilities = () => {
           <div className="row headings">
             <div className="col-md-12">
               <h1>Token Value-Accrual &amp; Utility</h1>
-              <h5>
+              <h5 >
                 OCTF is predicated on a fixed-supply model that is integrated
                 with a continual buyback-and-burn mechanism for maximum
                 value-accrual and token value sustainability.
               </h5>
-              <h3 className="mt-4 mb-2" />
             </div>
           </div>
-          <div className="row d-flex align-item-center justify-content-center">
+          <div className="row mt-4 mb-2 d-flex align-item-center justify-content-center">
             <div className="col-lg-4 mt-3">
               <div className="utility utility-1">
                 <img
                   src="assets/trading-fee.svg"
+                alt=""
+
                   className="svg-icons"
                   width={70}
                 />
@@ -32,6 +33,8 @@ const Utilities = () => {
               <div className="utility utility-1">
                 <img
                   src="assets/buy-back.svg"
+                alt=""
+
                   className="svg-icons"
                   width={70}
                 />
@@ -43,6 +46,8 @@ const Utilities = () => {
               <div className="utility utility-1">
                 <img
                   src="assets/staking.b.svg"
+                alt=""
+
                   className="svg-icons"
                   width={70}
                 />
@@ -56,6 +61,8 @@ const Utilities = () => {
               <div className="utility utility-1">
                 <img
                   src="assets/earning.5.svg"
+                alt=""
+
                   className="svg-icons"
                   width={70}
                 />
@@ -67,6 +74,7 @@ const Utilities = () => {
               <div className="utility utility-1">
                 <img
                   src="assets/gov.14.svg"
+                alt=""
                   className="svg-icons"
                   width={70}
                 />
@@ -77,7 +85,9 @@ const Utilities = () => {
             <div className="col-md-4 mt-3">
               <div className="utility utility-1">
                 <img
+
                   src="assets/proposal.0.svg"
+                alt=""
                   className="svg-icons"
                   width={70}
                 />
